@@ -358,7 +358,7 @@
 import UserService from "@/services/user.service";
 import ButtonNavigation from "@/components/Footers/ButtonNavigation.vue";
 import { format } from 'date-fns';
-import { Datepicker } from '@vuepic/vue-datepicker';
+//import { Datepicker } from '@vuepic/vue-datepicker';
 //import ServiceSetupLarge from "@/components/ServiceSelectLarge.vue"
 //import { Dialog, TransitionRoot, TransitionChild } from '@headlessui/vue';
 
@@ -366,7 +366,7 @@ export default {
     name: "dashboard-page",
     components: {
       ButtonNavigation,
-      Datepicker,
+      //Datepicker,
       //Dialog,
       //TransitionRoot,
       //TransitionChild,
