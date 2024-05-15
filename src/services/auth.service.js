@@ -1,7 +1,8 @@
 import axios from 'axios';
 //import qs from 'qs';
 
-const API_URL = 'https://caliak.com/api_yugapp/public/';
+//const API_URL = 'https://caliak.com/api_yugapp/public/';
+const API_URL = 'http://10.10.10.72:9091/api_action_p2h/public/api/';
 //const API_KEY = '9hAWqbghxkcYIR6GlYyY';
 //const API_TOKEN = '$2a$12$yWjlqehQ7fFMGCNKAelaoO..8w8.pqq4MIv8/ewAXHKB1UCiCdx5G';
 // const config = {

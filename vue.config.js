@@ -18,7 +18,7 @@ module.exports =
               pathRewrite: { "^/API1": "" }
           },
           '/API2': {
-              target: 'http://10.10.10.72:8080/',
+              target: 'http://10.10.10.72:9091/',
               changeOrigin: true,
               pathRewrite: {
                   '^/API2': ''

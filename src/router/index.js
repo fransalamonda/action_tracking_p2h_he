@@ -6,6 +6,8 @@ import Home from '../views/Home.vue'
 import Unassigned from '../views/unassigned.vue'
 import PendingAction from '../views/pending_action.vue'
 import InProgress from '../views/in_progress.vue'
+import LoginPortal from '../views/LoginPortal.vue'
+
 // import Stokbarang from '../views/Stokbarang.vue'
 // import Kasir from '../views/Kasir.vue'
 // import Supplier from '../views/Supplier.vue'
@@ -19,6 +21,11 @@ const router = createRouter({
       path: '/',
       name: 'LoginView',
       component: LoginView
+    },
+    {
+      path: '/loginportal/:appKey/:nik/:email/:name/:appName/:roleDisplayName/:roleName/:ou/:dept/:nmper/:nmou',
+      name: 'loginportal',
+      component: LoginPortal
     },
     {
       path: '/Dashboard',
